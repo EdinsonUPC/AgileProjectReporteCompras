@@ -3,6 +3,7 @@
 La carpeta node_modules es generada por las dependencias de npm que ocupe el proyecto, en terminal corre los siguientes comandos para ver si tienes instalados node y npm
 
 node -v
+
 npm -v
 
 Si los tienes instalados, debes dirigirte a la carpeta raiz de tu proyecto y correr en la terminal:
@@ -10,6 +11,7 @@ Si los tienes instalados, debes dirigirte a la carpeta raiz de tu proyecto y cor
 npm install
 
 y luego de ello:
+
 ng serve
 
 
