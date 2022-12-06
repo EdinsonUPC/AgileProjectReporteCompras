@@ -4,33 +4,30 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { MaterialPrincipalModule } from './material.module';
-import { MenuModule } from './components/menu/menu.module';
-import { ReportesModule } from './components/reportes/reportes.module';
-import { SecurityModule } from './components/security/security.module';
+import { CommonModule } from '@angular/common';
+import { MenuDefaultComponent } from './menu-default/menu-default.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
+import { MaterialPrincipalModule } from 'src/app/material.module';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    MenuDefaultComponent
   ],
   imports: [
+    CommonModule,
     BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
-    SecurityModule,
     MaterialPrincipalModule,
-    MenuModule,
-    ReportesModule,
   ],
-  exports: [
+  providers: [
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MenuDefaultComponent]
 })
-export class AppModule { }
+export class MenuModule { }
+

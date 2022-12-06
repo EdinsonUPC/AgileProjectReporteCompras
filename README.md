@@ -1,5 +1,18 @@
 # ProyectoScrum
 
+La carpeta node_modules es generada por las dependencias de npm que ocupe el proyecto, en terminal corre los siguientes comandos para ver si tienes instalados node y npm
+
+node -v
+npm -v
+
+Si los tienes instalados, debes dirigirte a la carpeta raiz de tu proyecto y correr en la terminal:
+
+npm install
+
+y luego de ello:
+ng serve
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 ## Development server

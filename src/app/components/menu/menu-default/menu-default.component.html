@@ -1,0 +1,18 @@
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+  <mat-drawer-container class="example-sidenav-container">
+    <mat-toolbar color="primary" class="example-toolbar">
+      <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <h1 class="example-app-name">Reportes</h1>
+    </mat-toolbar>
+    <mat-drawer #drawer mode="side">
+      <p>Auto-resizing sidenav</p>
+    </mat-drawer>
+
+    <div class="example-sidenav-container">
+      <router-outlet></router-outlet>
+    </div>
+
+  </mat-drawer-container>
+</div>
