@@ -5,6 +5,7 @@ Bienvenidos al repositorio de este proyecto.
 Para poder clonarlo en su dispositivo es necesario previamente que tenga instalado:
 
 nodejs: (https://nodejs.org/en/)
+
 Angular: luego de instalar, en la ubicación que sea necesario, en una terminal digite lo siguiente: npm install @angular/cli
 
 La carpeta node_modules es generada por las dependencias de npm que ocupe el proyecto, en terminal corre los siguientes comandos para ver si tienes instalados node y npm
